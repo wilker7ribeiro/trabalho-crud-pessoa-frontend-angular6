@@ -50,8 +50,12 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "CrudPessoa:build"
+            "browserTarget": "CrudPessoa:build",
+              "host": "0.0.0.0",
+              "port": 8080,
+              "disableHostCheck": true
           },
+          
           "configurations": {
             "production": {
               "browserTarget": "CrudPessoa:build:production"
