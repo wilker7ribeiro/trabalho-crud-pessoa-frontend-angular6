@@ -22,12 +22,11 @@ const appRoutes: Routes = [
   imports: [
     SharedModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
     RouterModule.forRoot(
-      appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
+      appRoutes
     )
-    
+
   ],
   providers: [
     PessoaService
