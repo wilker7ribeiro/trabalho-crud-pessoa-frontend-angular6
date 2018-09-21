@@ -9,7 +9,7 @@ import { Pessoa } from './pessoa';
 @Injectable()
 export class PessoaService {
 
-  private baseUrl = 'https://crud-pessoa-backend.herokuapp.com/';  // URL to web api
+  private baseUrl = 'https://crud-pessoa-backend.herokuapp.com';  // URL to web api
 
   constructor(
     private http: HttpClient
